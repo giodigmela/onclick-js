@@ -1,0 +1,43 @@
+body{
+    background-color: lightgray;
+}
+
+#text{
+    width: 300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Supermercado One', cursive;
+
+    max-height: 250px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#text.open{
+    max-height: 1000px;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#show-more{
+    width: 100px;
+    background-color: brown;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: 'Supermercado One', cursive;
+    cursor: pointer;
+}
